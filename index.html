@@ -23,15 +23,16 @@
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="row">
-                <div class="col col-md-4 col-lg-3 align-self-center">
-                    <a href="#"><img src="img/trumpetlogo.png" height="200" width="200"></a>
-                </div>
-                <div class="col align-self-center">
-                    <h1>CASSIE WHITWORTH</h1>
-                    <h3>TRUMPET STUDIO</h3>
+                <div class="col d-flex justify-content-center">
+                    <a href="#"><img src="img/musicstudiologo.png" height="200" width="200"></a>
                 </div>
             </div>
-        </div>  
+            <div class="row">
+                <div class="col d-flex justify-content-center">
+                    <P>CHARLOTTE, NC</p>
+                </div>
+            </div>
+        </div> 
     </header>
 
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
@@ -45,25 +46,140 @@
                     <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="lessons.html">Lessons</a></li>
                     <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
+            </ul>
+            <span class="navbar-text ml-auto">
+                <a role="button" data-toggle="modal" data-target="#loginModal">
+                    <i class="fa fa-sign-in"></i> Student Login
+                </a>
+            </span>
             </div>
         </div>
     </nav>
 
+    <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Login</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="loginEmail">Email address</label>
+                                    <input type="email" class="form-control form-control-sm" id="loginEmail" placeholder="Enter email">
+                                </div>
+                                <div class="form-group col-12">
+                                    <label class="sr-only" for="loginPassword">Password</label>
+                                    <input type="password" class="form-control form-control-sm" id="loginPassword" placeholder="Password">
+                                </div>
+                                <div class="col">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox">
+                                        <label class="form-check-label"> Remember me</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                                <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 mx-auto">
-                <img src="img/trumpetphoto.jpg" height="300" width="300">
-                <img src="img/headshot.jpg" height="300" width="300">
-                <img src="img/sheetmusic.jpg" height="300" width="300">
+            <div class="col d-flex justify-content-center">
+                <img class="d-none d-lg-block" src="img/sheetmusic.jpg" height="350" width="350">
+                <img src="img/trumpetphoto.jpg" height="350" width="350">
+                <img class="d-none d-md-block" src="img/sheetmusic.jpg" height="350" width="350">
+                <img src="img/frenchhornphoto.jpg" height="350" width = "350">
+                <img class="d-none d-lg-block" src="img/sheetmusic.jpg" height="350" width="350">
             </div>
-            <div class="col">
-                
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col d-flex justify-content-center">
+                <h2><b>CASSIE WHITWORTH</b></h2>
             </div>
-            <div class="col">
-                
+        </div>
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <h2><b>MUSIC STUDIO</b></h2>
             </div>
+        </div>
+        <div class="row mt-3 mb-5">
+            <div class="col d-flex justify-content-center">
+                <h1 class="text-center">Offering in person or virtual private lessons on Trumpet, Horn, and Beginning Piano to students both young and young at heart in the Charlotte, NC area </h1>
+            </div>
+        </div>  
+        <div class="row mt-3 mb-5">
+            <div class="col d-flex justify-content-center">
+                <h1 class="text-center">Tailored, one-on-one instruction designed to meet YOU where you are and help you GROW from there</h1>
+            </div>
+        </div>  
+        <div class="row mt-3 mb-5">
+            <div class="col d-flex justify-content-center">
+                <h1 class="text-center">All skill levels welcome - complete beginner to advanced player</h1>
+            </div>
+        </div> 
+    </div>
 
+    <div class="container mb-5">
+        <div class="row mb-3">
+            <div class="col d-flex justify-content-center">
+                <h3 class="text-center">Check out what students have to say about lessons with Cassie: </h5>
+            </div>
+        </div>
+        <div class="row">
+            <div class="media border">
+                <img class="mr-3" src="img/girlface.jpg" alt="SarahProfilePicture" height="65" width="65">
+                <div class="media-body">
+                  <h5 class="mt-0">Sarah, Trumpet</h5>
+                    "I used to be so bad at the trumpet that my dead grandmother 
+                    could play it better, but lessons with Cassie have helped me improve!"</div>
+              </div>
+        </div>
+        <div class="row mt-5">
+            <div class="media border">
+                <img class="mr-3" src="img/boyface.png" alt="TimmyProfilePicture" height="65" width="65">
+                <div class="media-body">
+                  <h5 class="mt-0">Timmy, Horn</h5>
+                    "Cassie has helped my hone my skills on Horn - especially my ear! I now can bet the family farm that 
+                    I'll play in the right register EVERY TIME."</div>
+              </div>
+        </div>
+        <div class="row mt-5">
+            <div class="media border">
+                <img class="mr-3" src="img/manface.jfif" alt="CalebProfilePicture" height="65" width="65">
+                <div class="media-body">
+                  <h5 class="mt-0">Caleb, Trumpet</h5>
+                    "I have always regretted my decision to quit trumpet lessons so I could "focus on football" when I was a kid. 
+                    Cassie has helped me enjoy playing the trumpet again with no judgement and endless encouragement. 
+                    I urge any other adult who is afraid it's too late to learn or re-learn music to just GO FOR IT!</div>
+              </div>
+        </div>
+        <div class="row mt-5">
+            <div class="media border">
+                <img class="mr-3" src="img/womanface.png" alt="CalebProfilePicture" height="65" width="65">
+                <div class="media-body">
+                  <h5 class="mt-0">Karen, Student Mom</h5>
+                   My daughter LOVES going to piano lessons with Cassie. On a scale of 1 to 5 - 1 being she'd rather eat a 
+                   plate of broccoli and 5 being becoming a unicorn - piano lessons are a solid 4.5. I ususally don't have nice things
+                   to say about teachers or retail workers or servers or...you get the picture, but Cassie gets 5 stars in my book!</div> 
+              </div>
         </div>
     </div>
 
@@ -71,10 +187,10 @@
 <footer class="site-footer">
     <div class="container">
         <div class="row">
-            <div class="col col-md-4 col-lg-3">
-                <a href="#"><img src="img/trumpetlogo.png" height="200" width="200"></a>
+            <div class="col col-md-4 col-lg-3 d-none d-sm-block">
+                <a href="#"><img src="img/musicstudiologo.png" height="200" width="200"></a>
             </div>
-            <div class="col-6 col-md-3 col-lg-3 align-self-center text-center mx-auto">
+            <div class="col-6 col-md-3 col-lg-3 align-self-center text-center mx-auto mb-3">
                 <h5>Social Media</h5>
                 <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
                 <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
